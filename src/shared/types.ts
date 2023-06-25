@@ -4,3 +4,8 @@ export enum SelectedPage{
     Profile="profile",
     Contact="contact"
   }
+  export interface BenefitType{
+    icon:JSX.Element;
+    title:string;
+    description:string;
+  }
